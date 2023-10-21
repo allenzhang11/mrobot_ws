@@ -1,0 +1,10 @@
+global_costmap:
+  global_frame: map2
+  robot_base_frame: base_footprint
+
+  update_frequency: 10.0 # 可以设置小一些，否则导致速度慢
+  publish_frequency: 10.0 # 可以设置小一些，否则导致速度慢
+  transform_tolerance: 0.5
+
+  static_map: true
+ 
